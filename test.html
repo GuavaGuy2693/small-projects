@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body onload="runScripts();">
+  <div class="showcase">
+    <div class="item">
+      <pre id="donut"></pre>
+    </div>
+    <div class="item">
+      <pre id="snake"></pre>
+    </div>
+  </div>
+  <script src="Donut/donut.js"></script>
+  <script src="Snake/Snake.js"></script>
+  <script>
+    let runScripts = () => {
+      donut();
+      snake();
+    }
+  </script>
+</body>
+</html>

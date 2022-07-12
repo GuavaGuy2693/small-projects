@@ -1,0 +1,26 @@
+:root {
+  --BLACK: #000;
+  --WHITE: #ccc;
+  --PINK: #dab;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--PINK);
+}
+.showcase {
+  display: flex;
+  flex-flow: row wrap;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  background-color: var(--BLACK);
+  color: var(--WHITE);
+  width: 30vw;
+  height: 30vh;
+  align-items: center;
+  overflow: hidden;
+}
