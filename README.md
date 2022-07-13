@@ -8,4 +8,4 @@
 #### Github Pages [Link](https://guavaguy2693.github.io/small-projects/test)
 > A collection of
 > - A spinning :doughnut:
-> - scuffed snake game that plays itself. *Note: The logic is scuffed, the snake is invincible right now.*
+> - A snake game that plays itself. *Note: The logic is scuffed, the snake is invincible right now.*
